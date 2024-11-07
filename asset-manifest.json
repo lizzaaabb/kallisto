@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kallisto/static/css/main.76f30f07.css",
-    "main.js": "/kallisto/static/js/main.24b73da4.js",
+    "main.css": "/kallisto/static/css/main.8532b623.css",
+    "main.js": "/kallisto/static/js/main.8a506f83.js",
     "index.html": "/kallisto/index.html",
-    "main.76f30f07.css.map": "/kallisto/static/css/main.76f30f07.css.map",
-    "main.24b73da4.js.map": "/kallisto/static/js/main.24b73da4.js.map"
+    "main.8532b623.css.map": "/kallisto/static/css/main.8532b623.css.map",
+    "main.8a506f83.js.map": "/kallisto/static/js/main.8a506f83.js.map"
   },
   "entrypoints": [
-    "static/css/main.76f30f07.css",
-    "static/js/main.24b73da4.js"
+    "static/css/main.8532b623.css",
+    "static/js/main.8a506f83.js"
   ]
 }
