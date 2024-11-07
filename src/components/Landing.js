@@ -15,6 +15,15 @@ export default function Landing() {
             set very close to the seaside resort of Corfu.
             </p>
         </div>
+
+        <div className="button-container">
+            <div className="button-circle">
+                <div className="button-content">
+                    <p className="buttonText">Discover More</p>
+                    
+                </div>
+            </div>
+        </div>
       </div>
     </div>
   );
