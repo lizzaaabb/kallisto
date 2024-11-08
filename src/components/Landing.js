@@ -5,7 +5,7 @@ import './Landing.css';  // Styles for Landing component
 
 export default function Landing() {
   return (
-    <div className="landing" style={{ backgroundImage: 'url(/greek21.jpg)'}}>
+    <div className="landing" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/greek21.jpg)`}}>
       <Header />  {/* The header will sit on top of the background */}
       <div className="landing-content">
         <div className="landing-title-container">
@@ -20,10 +20,14 @@ export default function Landing() {
             <div className="button-circle">
                 <div className="button-content">
                     <p className="buttonText">Discover More</p>
-                    
+                    <div className="bars">
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                    </div>
                 </div>
             </div>
         </div>
+
       </div>
     </div>
   );

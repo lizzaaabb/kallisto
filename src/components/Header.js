@@ -19,7 +19,7 @@ export default function Header() {
 
         <div className="header-container">
             <div className="logo-container">
-                <img src="diamondwhite.png" alt="diamond logo" className='header-logo' />
+                <img src={`${process.env.PUBLIC_URL}/diamondwhite.png`} alt="diamond logo" className='header-logo' />
             </div>
 
             <div className="headerTitle-container">
@@ -52,7 +52,7 @@ export default function Header() {
 
                 <div className="sidebarlogo-container">
 
-                  <img src="diamond.png" alt="diamond logo" className='sidebar-logo'/>
+                <img src={`${process.env.PUBLIC_URL}/diamond.png`} alt="diamond logo" className='sidebar-logo'/>
                   <div className="sidebartitle-container">
                     <p className='sidebar-title'>KALLISTO</p>
                     <p className='sidebar-description'>OASIS BREEZE BY THE SEA</p>
@@ -62,8 +62,8 @@ export default function Header() {
 
                 <div className="sidebarlists">
                     <div className="links">
-                    <a className='link'>HOME</a>
-                    <a className='link'>GALLERY</a>
+                    <a className='link' href='#'>HOME</a>
+                    <a className='link' href='#'>GALLERY</a>
                     </div>
                 </div>
 
@@ -72,15 +72,15 @@ export default function Header() {
                 </div>
 
                 <div className="terms-container">
-                    <a href="" className='term'>Terms & Conditions</a>
-                    <a href="" className='term'>Privacy Policy</a>
+                    <a href="#" className='term'>Terms & Conditions</a>
+                    <a href="#" className='term'>Privacy Policy</a>
 
                 </div>
 
                 <div className="social-container">
 
                     <p className='social'>Follow us on social media</p>
-                    <img src="instaicon1.png" alt="social media" className='instaicon' />
+                    <img src={`${process.env.PUBLIC_URL}/instaicon1.png`} alt="social media" className='instaicon' />
 
                 </div>
 

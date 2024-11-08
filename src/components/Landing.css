@@ -6,6 +6,7 @@
     --primary: #fff;
     --secondary:#504E49;
     --darker: #44433f;
+    --primary-hover: rgba(248, 248, 248, 0.123);
 }
 
 *{
@@ -27,6 +28,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    flex-direction: column;
 }
 
 .title1{
@@ -59,5 +61,89 @@
     letter-spacing: 0.6;
     font-weight: 300;
     margin-top: 10px;
+
+}
+
+/* BUTTON */
+
+.bars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+.bar {
+    height: 2.7px;
+    background-color: var(--primary);
+    transition: all 0.3s ease;
+}
+  
+  
+.bar:nth-child(1) {
+    width: 34px; /* Make the first bar slightly longer */
+}
+  
+.bar:nth-child(2) {
+    width: 28px; /* Default width for the second bar */
+
+
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 37px;
+
+}
+
+.buttonText{
+    text-transform: uppercase;
+    color: var(--primary);
+    font-size: 16px;
+    font-family: "Urbanist", sans-serif;
+}
+
+.button-circle{
+    border: 1px solid var(--primary);
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease ;
+    cursor: pointer;
+}
+
+.button-circle:hover{
+    background-color: var(--primary-hover);
+    
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+
+    .title1{
+        font-size: 26px;
+        margin-top: 30px;
+    }
+    .title2{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .title3{
+        font-size: 16px;
+    }
+
+    .button-circle{
+        margin-top: 15px;
+    }
+   
 
 }

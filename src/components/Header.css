@@ -19,8 +19,8 @@
     align-items: center;
     justify-content: center;
     gap: 370px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     background-color: transparent;
     position: relative; /* Creates a stacking context */
     z-index: 1;
@@ -212,9 +212,11 @@
     color: var(--darker);
     transition: all 0.3s ease;
     cursor: pointer;
+    text-decoration: none;
 }
 .link:hover{
     text-decoration: underline;
+    font-style: italic;
 }
 
 .line{
