@@ -1,0 +1,46 @@
+
+@import url('https://fonts.cdnfonts.com/css/boowie');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary: #fff;
+    --secondary:#504E49;
+    --darker: #44433f;
+    --primary-hover: rgba(248, 248, 248, 0.123);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.explore-container{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-description{
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title1{
+    color: var(--primary);
+    font-size: 18px;
+}
+.title4{
+    text-decoration: none;
+    color: var(--primary);
+    margin-top: 15px;
+    font-family: 'Urbanist';
+    text-decoration: underline;
+}

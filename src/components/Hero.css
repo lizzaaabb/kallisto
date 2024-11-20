@@ -1,0 +1,262 @@
+
+@import url('https://fonts.cdnfonts.com/css/boowie');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary: #fff;
+    --secondary:#504E49;
+    --darker: #44433f;
+    --primary-hover: rgba(248, 248, 248, 0.123);
+    --background: #f2f2ef;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.welcome-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: var(--background);
+    padding-top: 54px;
+}
+.hotelpic{
+    height: 490px;
+    width: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 65px;
+}
+.description-header{
+    font-family: 'Urbanist';
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: 400;
+    overflow: hidden;
+    text-align: left !important;
+    margin-bottom: 30px;
+    color: var(--secondary);
+}
+.description-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 55px;
+}
+
+.header-description-container{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+}
+
+.villadesc{
+    font-weight: 500;
+    font-family: 'Urbanist';
+    line-height: 28px;
+    color: var(--secondary);
+    font-size: 1rem;
+}
+
+
+.icon1{
+    height: 64px;
+}
+.icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.icon-container{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* aqvar */
+
+.icon-description{
+    font-family: 'Urbanist';
+    color: var(--secondary);
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+.welcome-container2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: var(--background);
+    padding-top: 54px;
+    padding-bottom: 70px;
+}
+.hotelpic2{
+    height: 350px;
+    width: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 65px;
+}
+.description-header2{
+    font-family: 'Urbanist';
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 400;
+    overflow: hidden;
+    text-align: left !important;
+    margin-bottom: 30px;
+    color: var(--secondary);
+}
+.description-container2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 55px;
+}
+
+.header-description-container2{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+}
+
+.villadesc2{
+    font-weight: 500;
+    font-family: 'Urbanist';
+    line-height: 28px;
+    color: var(--secondary);
+}
+
+
+.icon1{
+    height: 64px;
+}
+.icons-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.icon-container2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-description2{
+    font-family: 'Urbanist';
+    color: var(--secondary);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.picture-container2{
+    margin-top: -40px;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+    .welcome-container{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .hotelpic{
+        width: 350;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .picture-container{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .description-header{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .description-container{
+        width: 90%;
+        margin-right: 0px;
+        padding-top: 40px;
+    }
+    .villadesc{
+        font-size: 0.9rem;
+    }
+
+    .icon1{
+        height: 50px;
+    }
+    .icons-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 50px;
+    }
+    
+    .icon-container{
+        width: 25%;
+    }
+
+
+    .welcome-container2{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+    .hotelpic2{
+        width: 350;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .picture-container2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description-header2{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .description-container2{
+        width: 90%;
+        margin-left: 0px;
+        padding-top: 40px;
+    }
+    .villadesc2{
+        font-size: 0.9rem;
+    }
+}
